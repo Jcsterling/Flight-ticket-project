@@ -1,0 +1,13 @@
+Passenger passenger1 = new Passenger();
+passenger1.setName("jimbo slice");
+System.out.println(passenger1);
+
+//testing the toString for the ticket class
+Ticket testTicket4 = new Ticket();
+Flight testFlight2 = new Flight("chicago", "montego", 47);
+Seat seat2 = new Seat(49);
+Passenger testPassenger2 = new Passenger("skeng do");
+testTicket4.setSeat(seat2);
+testTicket4.setFlight(testFlight2);
+testTicket4.setPassenger(testPassenger2);
+System.out.println(testTicket4);

@@ -1,0 +1,8 @@
+//this line is used to create a passenger object which is equal to a new passenger
+Passenger passenger = new Passenger();
+
+System.out.println(passenger.getName());
+
+//change name to hommerton B
+passenger.setName("hommerton B");
+System.out.println(passenger.getName());

@@ -1,0 +1,34 @@
+// using boolean variables
+
+int bagweight = 59;
+boolean alowedOnFlight = bagweight < 50;
+System.out.println(alowedOnFlight); 
+// will return false because 59 > 50
+********************************************************************************************
+
+//using local date to print current date
+
+LocalDate invoiceDate = LocalDate.now();
+System.out.println(invoiceDate); 
+
+//this code uses the first variable invoiceDate and adds 14 days to it
+LocalDate dueDate = invoiceDate.plusDays(14);
+System.out.println(dueDate);  
+
+********************************************************************************************
+// String variables
+
+String firstName = "Jim";
+String lastName = "Bob";
+System.out.println(firstName + " " + lastName);  
+
+********************************************************************************************
+// double variables
+
+double total = 10d; //10d means 10.0000*
+
+********************************************************************************************
+
+
+
+

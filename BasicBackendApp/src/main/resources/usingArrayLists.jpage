@@ -1,0 +1,17 @@
+ArrayList<String>names = new ArrayList<String>();
+names.add("mary");
+names.add("jim");
+//get the size of the array list which is 2
+System.out.println(names.size());
+
+//get the index of mary which is 0
+System.out.println(names.indexOf("mary"));
+
+//get the name at index 0 which is mary
+System.out.println(names.get(0));
+
+//return boolean of whether the array contains jim. this is true
+System.out.println(names.contains("jim"));
+
+
+
