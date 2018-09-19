@@ -50,4 +50,13 @@ public class DataBaseTest {
 
 		
 	}
+	@Test
+	public void testBootstrap() {
+		DataBase testDB5 = new DataBase();
+		testDB5.bootStrap();
+		assertEquals(5, testDB5.getSeats().size());
+		assertEquals(6, testDB5.getFlights().size());
+		assertEquals(5, testDB5.getPassengers().size());
+
+	}
 }

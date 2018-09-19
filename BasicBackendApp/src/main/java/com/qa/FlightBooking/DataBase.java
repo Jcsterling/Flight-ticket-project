@@ -57,9 +57,20 @@ public class DataBase {
 		addSeat(14);
 		addSeat(8);
 		addSeat(16);
-		addSeat(15);
 		
-		addFlight(toronto, arrival, flightNo);
+		addFlight("toronto", "london", 219);
+		addFlight("chicago", "peru", 211);
+		addFlight("mexico", "antigua", 424);
+		addFlight("denmark", "lisbon", 36);
+		addFlight("jahbuti", "nepal", 539);
+		addFlight("sunderland", "heathrow", 28);
+		
+		addPassenger("joseph");
+		addPassenger("mike");
+		addPassenger("sonny");
+		addPassenger("gabe");
+		addPassenger("arthur");
+
 
 	}
 

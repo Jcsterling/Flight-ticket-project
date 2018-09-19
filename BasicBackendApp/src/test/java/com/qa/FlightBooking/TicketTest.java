@@ -33,6 +33,7 @@ public class TicketTest {
 		
 	}
 	@Test
+	
 	public void testToString() {
 		Ticket testTicket4 = new Ticket();
 		Flight testFlight2 = new Flight("chicago", "montego", 47);
